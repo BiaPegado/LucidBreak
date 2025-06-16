@@ -24,13 +24,13 @@ public class MenuButton : MonoBehaviour
         switch (buttonType)
         {
             case ButtonType.StartGame:
-                GameManager.Instance.StartGame();
+                GameManager.instance.StartGame(); 
                 break;
             case ButtonType.ReturnToMenu:
-                GameManager.Instance.ReturnToMenu();
+                GameManager.instance.ReturnToMenu();
                 break;
             case ButtonType.QuitGame:
-                GameManager.Instance.QuitGame();
+                GameManager.instance.QuitGame();
                 break;
         }
     }
