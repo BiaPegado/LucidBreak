@@ -17,4 +17,22 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
         itemManager = this.GetComponent<ItemManager>();
     }
+
+    public void StartGame()
+    {
+        Debug.Log("Iniciando o jogo...");
+        // lógica para iniciar o jogo
+    }
+
+    public void ReturnToMenu()
+    {
+        Debug.Log("Voltando ao menu...");
+        // lógica para voltar ao menu
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Saindo do jogo...");
+        Application.Quit();
+    }
 }
