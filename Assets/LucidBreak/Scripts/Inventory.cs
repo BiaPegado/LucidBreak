@@ -125,4 +125,26 @@ public class Inventory : MonoBehaviour
                 : new Vector3(0.5f, 0.5f, 1f);
         }
     }
+
+    public DiaryUIManager diaryManager;
+
+    // Substitua a sua função Update inteira por esta
+    void Update() 
+    {
+        // Verifica se a tecla F foi pressionada e se um slot está selecionado
+        if (Input.GetKeyDown(KeyCode.F) && selectedSlot != null)
+        {
+            // ================= AVISO IMPORTANTE =================
+            // Substitua "Diário" abaixo pelo 'itemName' exato que você usa para o seu diário.
+            // Verifique o prefab ou o asset do seu item para confirmar o nome.
+            // ======================================================
+
+            // Verifica se o NOME do item no slot selecionado é "Diário"
+            if (selectedSlot.itemName == "PhotoAlbum")
+            {
+                // Se for, chama o nosso sistema. Não precisa passar parâmetros.
+                diaryManager.OpenDiaryInteraction();
+            }
+        }
+    }
 }
