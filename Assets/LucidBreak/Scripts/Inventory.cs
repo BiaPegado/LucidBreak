@@ -125,4 +125,21 @@ public class Inventory : MonoBehaviour
                 : new Vector3(0.5f, 0.5f, 1f);
         }
     }
+
+    public bool Contains(Item item)
+    {
+        if (item == null || item.data == null) return false;
+
+        string targetName = item.data.itemName;
+
+        foreach (Slot slot in slots)
+        {
+            if (slot.itemName == targetName && slot.count > 0)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }

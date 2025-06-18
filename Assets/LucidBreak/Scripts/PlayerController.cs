@@ -85,13 +85,29 @@ public class PlayerController : MonoBehaviour
 
     }
 
+
     public void DropItem(Item item)
     {
+        if (item == null || item.data == null)
+        {
+            Debug.LogWarning("Tentou dropar item nulo");
+            return;
+        }
+
+        GameManager.instance.itemManager.RemoveCollectedItem(item.data.itemName);
+
         Vector3 spawnLocation = transform.position;
         Vector2 rawOffset = Random.insideUnitCircle.normalized * Random.Range(0.7f, 1.25f);
 
         Item droppedItem = Instantiate(item, spawnLocation + (Vector3)rawOffset, Quaternion.identity);
         droppedItem.data = item.data;
+
+        Collectable collectable = droppedItem.GetComponent<Collectable>();
+        if (collectable != null)
+        {
+            collectable.SetCollected(false);  // vamos criar esse método abaixo
+        }
+
         droppedItem.rb.AddForce(rawOffset * 2f, ForceMode2D.Impulse);
     }
 }

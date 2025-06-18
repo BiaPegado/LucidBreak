@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1878996262785391630}
   - component: {fileID: 4910931833813495161}
   - component: {fileID: 5242347395619325524}
+  - component: {fileID: 3835012082293339331}
   m_Layer: 0
   m_Name: PictureFrame
   m_TagString: Untagged
@@ -190,3 +191,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c67bb3c4be0a64c4fb3e85fb83fb40f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3835012082293339331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6103145662138503115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd03d6548d4e74643a806babd1d187ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: b5be3d3b8d7a0e948b9de49b5725dab1, type: 2}
+  showInteractionPrompt: 1
+  interactionText: Pressione E para interagir
+  interactionRange: 2
+  interactKey: 101
+  interactionPrompt: {fileID: 0}
+  promptText: {fileID: 0}
