@@ -7,8 +7,8 @@ public class ObjectInteractionTrigger : MonoBehaviour
     public bool triggerOnStart = false;
     public bool triggerOnTrigger = false;
     public bool triggerOnInteract = true;
-    public string interactKey = "E";
-    
+    public KeyCode interactKey = KeyCode.E;
+
     [Header("Trigger Settings")]
     public float interactionRange = 2f;
     public LayerMask playerLayer = 1;
@@ -59,7 +59,8 @@ public class ObjectInteractionTrigger : MonoBehaviour
         {
             interactionPrompt.SetActive(false);
             if (promptText != null)
-                promptText.text = $"Pressione {interactKey} para interagir";
+                promptText.text = $"Pressione {interactKey.ToString().Replace("Alpha", "")} para interagir";
+
         }
     }
     

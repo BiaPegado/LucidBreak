@@ -45,7 +45,7 @@ public class ExemploInteracao : MonoBehaviour
             
             // Configurar prompt de interação
             triggerSimples.showInteractionPrompt = true;
-            triggerSimples.interactKey = "E";
+            triggerSimples.interactKey = KeyCode.E;
             
             Debug.Log("Exemplo 1 configurado: Chave que abre porta");
         }
