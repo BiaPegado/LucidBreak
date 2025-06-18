@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e64792dd9be53e4abd93618701ce4cd, type: 3}
+  m_Name: NotaCaixaTV
+  m_EditorClassIdentifier: 
+  dialogueID: 
+  dialogueLines:
+  - dialogueText: "\"Caso voc\xEA esque\xE7a a senha, coma algo, ilumine sua mente..."
+    textSpeed: 0.05
+    waitTimeAfter: 1
+    shakeText: 0
+    textColor: {r: 0.6, g: 0.1960784, b: 0.8000001, a: 1}
+    useCustomFont: 1
+  - dialogueText: e depois explore nosso cantinho".
+    textSpeed: 0.05
+    waitTimeAfter: 1
+    shakeText: 0
+    textColor: {r: 0.6, g: 0.1960784, b: 0.8000001, a: 1}
+    useCustomFont: 1
+  canSkip: 1
+  autoAdvance: 1
+  autoAdvanceDelay: 1
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0.8}
+  borderColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueBoxSize: {x: 800, y: 200}
+  dialogueBoxPosition: {x: 0, y: -300}
