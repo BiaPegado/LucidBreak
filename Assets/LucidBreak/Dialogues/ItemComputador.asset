@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueID: 
   dialogueLines:
-  - dialogueText: "N\xE3o estou afim de jogar agora...."
-    textSpeed: 0.05
-    waitTimeAfter: 1
-    shakeText: 0
-    textColor: {r: 0.8470589, g: 0.7490196, b: 0.8470589, a: 1}
-    useCustomFont: 1
-  - dialogueText: Perai...cade meu mouse?
+  - dialogueText: "\xC9 o meu computador, ele \xE9 de 9\xBA gera\xE7\xE3o."
     textSpeed: 0.05
     waitTimeAfter: 1
     shakeText: 0

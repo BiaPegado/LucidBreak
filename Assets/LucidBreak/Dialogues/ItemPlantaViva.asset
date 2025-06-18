@@ -34,7 +34,7 @@ MonoBehaviour:
     useCustomFont: 1
   canSkip: 1
   autoAdvance: 1
-  autoAdvanceDelay: 0.05
+  autoAdvanceDelay: 1
   backgroundColor: {r: 0, g: 0, b: 0, a: 0.8}
   borderColor: {r: 1, g: 1, b: 1, a: 1}
   dialogueBoxSize: {x: 800, y: 200}
