@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e090f1090988d3443af4207fc7e58865, type: 3}
   m_Name: PhotoAlbum
   m_EditorClassIdentifier: 
-  itemName: Item Name
-  icon: {fileID: 0}
+  itemName: PhotoAlbum
+  icon: {fileID: -539044425784355039, guid: d35e38495ff92f14ca2ace80e3b07725, type: 3}
   tileToPlace: {fileID: 0}
   isPlantable: 0
