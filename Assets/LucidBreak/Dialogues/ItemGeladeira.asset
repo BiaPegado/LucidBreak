@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueID: 
   dialogueLines:
-  - dialogueText: "\xC9 a geladeira..."
+  - dialogueText: (Nota Adesiva)
+    textSpeed: 0.05
+    waitTimeAfter: 1
+    shakeText: 0
+    textColor: {r: 0.6, g: 0.1960784, b: 0.8000001, a: 1}
+    useCustomFont: 1
+  - dialogueText: "Tenha um otimo dia. Voc\xEA \xE9 minha n\xFAmero 1!"
     textSpeed: 0.05
     waitTimeAfter: 1
     shakeText: 0
     textColor: {r: 0.8470589, g: 0.7490196, b: 0.8470589, a: 1}
     useCustomFont: 1
-  - dialogueText: VROOOOOOOOM
-    textSpeed: 0.05
-    waitTimeAfter: 1
-    shakeText: 1
-    textColor: {r: 0.6, g: 0.1960784, b: 0.8000001, a: 1}
-    useCustomFont: 1
   canSkip: 1
   autoAdvance: 1
-  autoAdvanceDelay: 0.02
+  autoAdvanceDelay: 1
   backgroundColor: {r: 0, g: 0, b: 0, a: 0.8}
   borderColor: {r: 1, g: 1, b: 1, a: 1}
   dialogueBoxSize: {x: 800, y: 200}

@@ -1570,7 +1570,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.4154451}
+  m_Offset: {x: 0, y: 0.3646083}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1580,7 +1580,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.40625, y: 0.9191098}
+  m_Size: {x: 1.40625, y: 1.0207834}
   m_EdgeRadius: 0
 --- !u!114 &611442945
 MonoBehaviour:
@@ -3019,6 +3019,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1554381445}
   - component: {fileID: 1554381446}
+  - component: {fileID: 1554381448}
+  - component: {fileID: 1554381447}
   m_Layer: 0
   m_Name: small_plant_0
   m_TagString: Untagged
@@ -3096,6 +3098,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1554381447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554381444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd03d6548d4e74643a806babd1d187ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 11400000, guid: 0a5fb4e783f7cc547be09b4f89ebcd65, type: 2}
+  showInteractionPrompt: 1
+  interactionText: Pressione E para interagir
+  interactionRange: 2
+  interactKey: 101
+  interactionPrompt: {fileID: 0}
+  promptText: {fileID: 0}
+--- !u!61 &1554381448
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554381444}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.010645837, y: -0.34052074}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.5}
+    newSize: {x: 0.5, y: 0.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.7159465, y: 1.1810416}
+  m_EdgeRadius: 0
 --- !u!1 &1629470974
 GameObject:
   m_ObjectHideFlags: 0
@@ -3858,7 +3925,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.002373457, y: 0.0050878525}
+  m_Offset: {x: 0.002373457, y: 0.06610608}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3868,7 +3935,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.46567488, y: 0.8165114}
+  m_Size: {x: 0.46567488, y: 0.69447494}
   m_EdgeRadius: 0
 --- !u!114 &1839984490
 MonoBehaviour:

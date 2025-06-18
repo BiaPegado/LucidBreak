@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueID: 
   dialogueLines:
-  - dialogueText: Era uma linda planta
+  - dialogueText: Era uma linda planta...
     textSpeed: 0.05
     waitTimeAfter: 1
     shakeText: 0
@@ -22,7 +22,7 @@ MonoBehaviour:
     useCustomFont: 1
   canSkip: 1
   autoAdvance: 1
-  autoAdvanceDelay: 0.02
+  autoAdvanceDelay: 1
   backgroundColor: {r: 0, g: 0, b: 0, a: 0.8}
   borderColor: {r: 1, g: 1, b: 1, a: 1}
   dialogueBoxSize: {x: 800, y: 200}
