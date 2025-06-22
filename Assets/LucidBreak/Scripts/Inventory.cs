@@ -142,4 +142,25 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
+    // ========= Diferença vinda do segundo código =========
+
+
+    public DiaryUIManager diaryManager;
+
+    void Update()
+    {
+        // Verifica se a tecla F foi pressionada e se um slot está selecionado
+        if (Input.GetKeyDown(KeyCode.F) && selectedSlot != null)
+        {
+            // ================= AVISO IMPORTANTE =================
+            // Substitua "PhotoAlbum" abaixo pelo nome exato do item que representa o diário.
+            // ======================================================
+
+            if (selectedSlot.itemName == "PhotoAlbum")
+            {
+                diaryManager.OpenDiaryInteraction();
+            }
+        }
+    }
+
 }
