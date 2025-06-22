@@ -11,11 +11,17 @@ public class DiaryUIManager : MonoBehaviour
     public TMP_InputField codeInputField;
     public TextMeshProUGUI diaryContentText;
 
+
     [Header("Dados do Item")]
     // Em vez de receber o diário, ele já vai conhecer o prefab
     public DiaryItem diaryPrefab;
 
     // Esta função agora não precisa de parâmetros
+
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
     public void OpenDiaryInteraction()
     {
         // Se não tiver um prefab conectado, não faz nada
