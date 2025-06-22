@@ -561,7 +561,7 @@ MonoBehaviour:
   triggerOnStart: 0
   triggerOnTrigger: 0
   triggerOnInteract: 1
-  interactKey: E
+  interactKey: 0
   interactionRange: 2
   playerLayer:
     serializedVersion: 2
@@ -2468,6 +2468,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1117176642}
   - component: {fileID: 1117176643}
+  - component: {fileID: 1117176644}
   m_Layer: 0
   m_Name: Porta_Direita_Trigger
   m_TagString: Untagged
@@ -2536,6 +2537,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 0.6514164}
   m_EdgeRadius: 0
+--- !u!114 &1117176644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117176641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95c70ed6b49e954691228ef87166490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1158358064
 GameObject:
   m_ObjectHideFlags: 0
