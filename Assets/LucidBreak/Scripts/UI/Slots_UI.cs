@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine.EventSystems;
 using System;
 
-public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public Image itemIcon;
     public Image background;
@@ -35,10 +35,10 @@ public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             inventoryUI.Remove(selectedSlot.slotIndex);
         }
     }
-
+    /*
     public void OnPointerClick(PointerEventData eventData)
     {
-        /*
+        
         if (Input.GetKey(KeyCode.LeftShift))
         {
             Inventory fromInv = inventoryUI.Player.inventory;
@@ -57,7 +57,7 @@ public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
             inventoryUI.ShiftTransfer(fromInv, slotIndex, toInv);
             return;
-        }*/
+        }
 
         if (selectedSlot == this)
         {
@@ -70,7 +70,7 @@ public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
             Select();
         }
-    }
+    }*/
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -116,7 +116,7 @@ public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             selectedSlot = null;
     }
 
-
+    /*
     public void OnBeginDrag(PointerEventData eventData)
     {
         var slot = inventoryUI.Player.inventory.slots[slotIndex];
@@ -192,7 +192,7 @@ public class Slots_UI : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         draggingSlot = null;
     }
-
+    */
 }
 
 
