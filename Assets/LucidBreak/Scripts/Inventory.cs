@@ -48,6 +48,18 @@ public class Inventory : MonoBehaviour
 
     }
 
+    public bool HasItem(string itemName)
+    {
+        foreach (Slot slot in slots)
+        {
+            if (slot.itemName == itemName && slot.count > 0)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     [SerializeField] public List<Slot> slots = new(); 
 
     private void Awake()
@@ -89,6 +101,8 @@ public class Inventory : MonoBehaviour
             }
         }
     }
+
+
 
     public void RemoveUsingIndex(int index)
     {
@@ -142,18 +156,18 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    // ========= Diferença vinda do segundo código =========
+    // ========= Diferenï¿½a vinda do segundo cï¿½digo =========
 
 
     public DiaryUIManager diaryManager;
 
     void Update()
     {
-        // Verifica se a tecla F foi pressionada e se um slot está selecionado
+        // Verifica se a tecla F foi pressionada e se um slot estï¿½ selecionado
         if (Input.GetKeyDown(KeyCode.F) && selectedSlot != null)
         {
             // ================= AVISO IMPORTANTE =================
-            // Substitua "PhotoAlbum" abaixo pelo nome exato do item que representa o diário.
+            // Substitua "PhotoAlbum" abaixo pelo nome exato do item que representa o diï¿½rio.
             // ======================================================
 
             if (selectedSlot.itemName == "PhotoAlbum")
