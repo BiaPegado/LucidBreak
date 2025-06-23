@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen_living_room.unity
     guid: 8017daa406351684f96b26725c88bca3
+  - enabled: 1
+    path: Assets/Scenes/bad ending.unity
+    guid: cdaec204c1cd8e34a8a8d84ffb844cac
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
