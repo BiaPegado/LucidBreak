@@ -42,7 +42,7 @@ public class DiaryUIManager : MonoBehaviour
         {
             codeInputPanel.SetActive(false);
             diaryDisplayPanel.SetActive(true);
-            diaryContentText.text = diaryPrefab.diaryText;
+            //diaryContentText.text = diaryPrefab.diaryText;
         }
         else
         {
