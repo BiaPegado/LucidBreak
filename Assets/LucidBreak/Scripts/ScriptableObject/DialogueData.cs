@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Collections.Generic;
 
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "LucidBreak/Dialogue Data")]
 public class DialogueData : ScriptableObject
@@ -23,8 +24,9 @@ public class DialogueData : ScriptableObject
     
     [Header("Dialogue Settings")]
     public string dialogueID;
-    public DialogueLine[] dialogueLines;
-    
+    public List<DialogueLine> dialogueLines = new List<DialogueLine>();
+
+
     [Header("Global Settings")]
     public bool canSkip = true;
     public bool autoAdvance = false;

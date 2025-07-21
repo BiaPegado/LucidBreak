@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
         Collectable collectable = droppedItem.GetComponent<Collectable>();
         if (collectable != null)
         {
-            collectable.SetCollected(false);  // vamos criar esse método abaixo
+            collectable.SetCollected(false); 
         }
 
         droppedItem.rb.AddForce(rawOffset * 2f, ForceMode2D.Impulse);

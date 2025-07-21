@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using static DialogueData;
+using System.Collections.Generic;
 
 public class DialogueSetup : MonoBehaviour
 {
@@ -200,7 +202,7 @@ public class DialogueSetup : MonoBehaviour
         exampleDialogue.dialogueID = "ExampleDialogue";
         
         // Create dialogue lines
-        exampleDialogue.dialogueLines = new DialogueData.DialogueLine[]
+        exampleDialogue.dialogueLines = new List<DialogueLine>()
         {
             new DialogueData.DialogueLine
             {

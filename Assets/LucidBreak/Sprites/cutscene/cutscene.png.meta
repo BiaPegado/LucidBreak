@@ -1,0 +1,2249 @@
+fileFormatVersion: 2
+guid: a7c21a289b31b4847af1651dfa20c0e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2238395088599490266
+    second: cutscene_0
+  - first:
+      213: -8128487207981708262
+    second: cutscene_1
+  - first:
+      213: -6700398141525444819
+    second: cutscene_2
+  - first:
+      213: -3330070854259780981
+    second: cutscene_3
+  - first:
+      213: 7732169348022126154
+    second: cutscene_4
+  - first:
+      213: 9067875949443825271
+    second: cutscene_5
+  - first:
+      213: -5142844473175052296
+    second: cutscene_6
+  - first:
+      213: 3598704256303315419
+    second: cutscene_7
+  - first:
+      213: -3805656243371872934
+    second: cutscene_8
+  - first:
+      213: -172910981614400531
+    second: cutscene_9
+  - first:
+      213: 804030484152253470
+    second: cutscene_10
+  - first:
+      213: 8667196165922787929
+    second: cutscene_11
+  - first:
+      213: 8657850407118174289
+    second: cutscene_12
+  - first:
+      213: -3683206101479343266
+    second: cutscene_13
+  - first:
+      213: -4019844361519080668
+    second: cutscene_14
+  - first:
+      213: 8451529603955617828
+    second: cutscene_15
+  - first:
+      213: -650311429235485414
+    second: cutscene_16
+  - first:
+      213: -1623610034493734345
+    second: cutscene_17
+  - first:
+      213: 971553031093645205
+    second: cutscene_18
+  - first:
+      213: -3324865592670687662
+    second: cutscene_19
+  - first:
+      213: 3231861370048273465
+    second: cutscene_20
+  - first:
+      213: -6619580949788880950
+    second: cutscene_21
+  - first:
+      213: 6146537539397130985
+    second: cutscene_22
+  - first:
+      213: 6013882471682491936
+    second: cutscene_23
+  - first:
+      213: -4450488258322256557
+    second: cutscene_24
+  - first:
+      213: 8104480579849749212
+    second: cutscene_25
+  - first:
+      213: -7116253511121997462
+    second: cutscene_26
+  - first:
+      213: 939770071280610018
+    second: cutscene_27
+  - first:
+      213: -3165732978167441678
+    second: cutscene_28
+  - first:
+      213: -905675729744462396
+    second: cutscene_29
+  - first:
+      213: 4258415834143896970
+    second: cutscene_30
+  - first:
+      213: -2784732176642998233
+    second: cutscene_31
+  - first:
+      213: 1459774564791545075
+    second: cutscene_32
+  - first:
+      213: -1192782639564415944
+    second: cutscene_33
+  - first:
+      213: 2720058254247493565
+    second: cutscene_34
+  - first:
+      213: -5824992677943240810
+    second: cutscene_35
+  - first:
+      213: -9073271197061475639
+    second: cutscene_36
+  - first:
+      213: -2357619457977424241
+    second: cutscene_37
+  - first:
+      213: -5802518549353265659
+    second: cutscene_38
+  - first:
+      213: -5427931745907777902
+    second: cutscene_39
+  - first:
+      213: 1711734233107615493
+    second: cutscene_40
+  - first:
+      213: -7023831214043085498
+    second: cutscene_41
+  - first:
+      213: 8999971174185181958
+    second: cutscene_42
+  - first:
+      213: 2144794198545592280
+    second: cutscene_43
+  - first:
+      213: -7373347003220745344
+    second: cutscene_44
+  - first:
+      213: -1182838351938948762
+    second: cutscene_45
+  - first:
+      213: -6352372841983026486
+    second: cutscene_46
+  - first:
+      213: 2613840159634361032
+    second: cutscene_47
+  - first:
+      213: -5591034205177126790
+    second: cutscene_48
+  - first:
+      213: 8940875385566842980
+    second: cutscene_49
+  - first:
+      213: -5876599226692593275
+    second: cutscene_50
+  - first:
+      213: -6897331300842037218
+    second: cutscene_51
+  - first:
+      213: -6312677452240437214
+    second: cutscene_52
+  - first:
+      213: -8664784593072914887
+    second: cutscene_53
+  - first:
+      213: -1052305329774991155
+    second: cutscene_54
+  - first:
+      213: -6293193765374410323
+    second: cutscene_55
+  - first:
+      213: 5817399113286266658
+    second: cutscene_56
+  - first:
+      213: -7737094122189938691
+    second: cutscene_57
+  - first:
+      213: 6941018475129114244
+    second: cutscene_58
+  - first:
+      213: -5480128248529682009
+    second: cutscene_59
+  - first:
+      213: -1065838479742355260
+    second: cutscene_60
+  - first:
+      213: 8097810319126516736
+    second: cutscene_61
+  - first:
+      213: -6513621271237963053
+    second: cutscene_62
+  - first:
+      213: 8429182925449625971
+    second: cutscene_63
+  - first:
+      213: 90126449181148760
+    second: cutscene_64
+  - first:
+      213: 8276491620643744616
+    second: cutscene_65
+  - first:
+      213: 4586266817672418839
+    second: cutscene_66
+  - first:
+      213: 9222305803778150963
+    second: cutscene_67
+  - first:
+      213: -4285913786452026443
+    second: cutscene_68
+  - first:
+      213: -1609010162356874136
+    second: cutscene_69
+  - first:
+      213: -6329315980991235547
+    second: cutscene_70
+  - first:
+      213: -4369895885441466358
+    second: cutscene_71
+  - first:
+      213: -4471166571219602184
+    second: cutscene_72
+  - first:
+      213: -1521634995592870169
+    second: cutscene_73
+  - first:
+      213: -8804078660443130290
+    second: cutscene_74
+  - first:
+      213: -990191530574753752
+    second: cutscene_75
+  - first:
+      213: -993565732420208836
+    second: cutscene_76
+  - first:
+      213: -9033925685431261544
+    second: cutscene_77
+  - first:
+      213: -3260978475000467498
+    second: cutscene_78
+  - first:
+      213: 9211476411901704502
+    second: cutscene_79
+  - first:
+      213: -1916445430427256888
+    second: cutscene_80
+  - first:
+      213: 202203495698646300
+    second: cutscene_81
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cutscene_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade93fa3970601f10800000000000000
+      internalID: 2238395088599490266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c81fe63ffc13f80800000000000000
+      internalID: -8128487207981708262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2730b8f3676303a0800000000000000
+      internalID: -6700398141525444819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d6f6933639c1d0800000000000000
+      internalID: -3330070854259780981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46c5042e0f2e4b60800000000000000
+      internalID: 7732169348022126154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e38e1e12197dd70800000000000000
+      internalID: 9067875949443825271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffe1591332f0a8b0800000000000000
+      internalID: -5142844473175052296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd935a0547a21f130800000000000000
+      internalID: 3598704256303315419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d62945fc79f2bc0800000000000000
+      internalID: -3805656243371872934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb0c1bd062b99df0800000000000000
+      internalID: -172910981614400531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cfa74277d782b00800000000000000
+      internalID: 804030484152253470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952947cfdf0184870800000000000000
+      internalID: 8667196165922787929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_12
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158ffb2f21dd62870800000000000000
+      internalID: 8657850407118174289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_13
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bb5cea09f92ecc0800000000000000
+      internalID: -3683206101479343266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_14
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b5c4be9d4a638c0800000000000000
+      internalID: -4019844361519080668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_15
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 462
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420f87c856dd94570800000000000000
+      internalID: 8451529603955617828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15da0b5331a9f6f0800000000000000
+      internalID: -650311429235485414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_17
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732cd30a647c779e0800000000000000
+      internalID: -1623610034493734345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_18
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f6ac29556ab7d00800000000000000
+      internalID: 971553031093645205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ee1fefb54bbd1d0800000000000000
+      internalID: -3324865592670687662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93cd80dfac0e9dc20800000000000000
+      internalID: 3231861370048273465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf04edb2368224a0800000000000000
+      internalID: -6619580949788880950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_22
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea9e5a8353ec4550800000000000000
+      internalID: 6146537539397130985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026459dbe3a957350800000000000000
+      internalID: 6013882471682491936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_24
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35da7ad3280bc32c0800000000000000
+      internalID: -4450488258322256557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_25
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd20ff2e526e87070800000000000000
+      internalID: 8104480579849749212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_26
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6172f9922dfd3d90800000000000000
+      internalID: -7116253511121997462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_27
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea693596ebba0d00800000000000000
+      internalID: 939770071280610018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_28
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6179e01ae0114d0800000000000000
+      internalID: -3165732978167441678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_29
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd73e6e8b46e63f0800000000000000
+      internalID: -905675729744462396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_30
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85bb0c93aee81b30800000000000000
+      internalID: 4258415834143896970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_31
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 398
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7200898e6d4aa59d0800000000000000
+      internalID: -2784732176642998233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcec828b39224410800000000000000
+      internalID: 1459774564791545075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c928a4282627fe0800000000000000
+      internalID: -1192782639564415944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf7acc12969fb520800000000000000
+      internalID: 2720058254247493565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_35
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69711f38508792fa0800000000000000
+      internalID: -5824992677943240810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_36
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c21e542be3451280800000000000000
+      internalID: -9073271197061475639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_37
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86e4bb189d084fd0800000000000000
+      internalID: -2357619457977424241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_38
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5060f275f10597fa0800000000000000
+      internalID: -5802518549353265659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_39
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ed914e5dc1ca4b0800000000000000
+      internalID: -5427931745907777902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_40
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f4142473d41c710800000000000000
+      internalID: 1711734233107615493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_41
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64549a489b6568e90800000000000000
+      internalID: -7023831214043085498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_42
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603201a591256ec70800000000000000
+      internalID: 8999971174185181958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_43
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfe0a0c5f6d3cd10800000000000000
+      internalID: 2144794198545592280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_44
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083265b57fb9ca990800000000000000
+      internalID: -7373347003220745344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_45
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66178fd29c6b59fe0800000000000000
+      internalID: -1182838351938948762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_46
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca53c87e86d7d7a0800000000000000
+      internalID: -6352372841983026486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_47
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 334
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca08a6c6c9364420800000000000000
+      internalID: 2613840159634361032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_48
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70eb515308a862b0800000000000000
+      internalID: -5591034205177126790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_49
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460deb9dace541c70800000000000000
+      internalID: 8940875385566842980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_50
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58917ad8320227ea0800000000000000
+      internalID: -5876599226692593275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_51
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10a02bb9b1c740a0800000000000000
+      internalID: -6897331300842037218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_52
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220479d9d4dd468a0800000000000000
+      internalID: -6312677452240437214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_53
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e7c92125080c780800000000000000
+      internalID: -8664784593072914887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_54
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 270
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8e28fb0e57561f0800000000000000
+      internalID: -1052305329774991155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_55
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 270
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1c728fc951aa8a0800000000000000
+      internalID: -6293193765374410323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_56
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa910fbad8bb050800000000000000
+      internalID: 5817399113286266658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_57
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff1b1583e150a490800000000000000
+      internalID: -7737094122189938691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_58
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e8e7d2783735060800000000000000
+      internalID: 6941018475129114244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_59
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a10ec6946ca2f3b0800000000000000
+      internalID: -5480128248529682009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_60
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8b30bbc816531f0800000000000000
+      internalID: -1065838479742355260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_61
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004570ac493316070800000000000000
+      internalID: 8097810319126516736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_62
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2de66e6f7fa95a0800000000000000
+      internalID: -6513621271237963053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_63
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 270
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371863206397af470800000000000000
+      internalID: 8429182925449625971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_64
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8564f4c2781304100800000000000000
+      internalID: 90126449181148760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_65
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ba7fa37410cd270800000000000000
+      internalID: 8276491620643744616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_66
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71696802f51b5af30800000000000000
+      internalID: 4586266817672418839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_67
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332583444463cff70800000000000000
+      internalID: 9222305803778150963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_68
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbd3947e106584c0800000000000000
+      internalID: -4285913786452026443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_69
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86499b048c5aba9e0800000000000000
+      internalID: -1609010162356874136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_70
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a70d146a0c928a0800000000000000
+      internalID: -6329315980991235547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_71
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0002da48d20b53c0800000000000000
+      internalID: -4369895885441466358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_72
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4bad651b933f1c0800000000000000
+      internalID: -4471166571219602184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_73
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e642e1980112eae0800000000000000
+      internalID: -1521634995592870169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_74
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46b0b5ba11a1d580800000000000000
+      internalID: -8804078660443130290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_75
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820dd789c022242f0800000000000000
+      internalID: -990191530574753752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37b7120b352632f0800000000000000
+      internalID: -993565732420208836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_77
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896a790f37c01a280800000000000000
+      internalID: -9033925685431261544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_78
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfe669ba5daeb2d0800000000000000
+      internalID: -3260978475000467498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_79
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 206
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6397a4cfdfcb5df70800000000000000
+      internalID: 9211476411901704502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 142
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c776f7e80b6765e0800000000000000
+      internalID: -1916445430427256888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cutscene_81
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 142
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15c57d020f5ec200800000000000000
+      internalID: 202203495698646300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cutscene_0: 2238395088599490266
+      cutscene_1: -8128487207981708262
+      cutscene_10: 804030484152253470
+      cutscene_11: 8667196165922787929
+      cutscene_12: 8657850407118174289
+      cutscene_13: -3683206101479343266
+      cutscene_14: -4019844361519080668
+      cutscene_15: 8451529603955617828
+      cutscene_16: -650311429235485414
+      cutscene_17: -1623610034493734345
+      cutscene_18: 971553031093645205
+      cutscene_19: -3324865592670687662
+      cutscene_2: -6700398141525444819
+      cutscene_20: 3231861370048273465
+      cutscene_21: -6619580949788880950
+      cutscene_22: 6146537539397130985
+      cutscene_23: 6013882471682491936
+      cutscene_24: -4450488258322256557
+      cutscene_25: 8104480579849749212
+      cutscene_26: -7116253511121997462
+      cutscene_27: 939770071280610018
+      cutscene_28: -3165732978167441678
+      cutscene_29: -905675729744462396
+      cutscene_3: -3330070854259780981
+      cutscene_30: 4258415834143896970
+      cutscene_31: -2784732176642998233
+      cutscene_32: 1459774564791545075
+      cutscene_33: -1192782639564415944
+      cutscene_34: 2720058254247493565
+      cutscene_35: -5824992677943240810
+      cutscene_36: -9073271197061475639
+      cutscene_37: -2357619457977424241
+      cutscene_38: -5802518549353265659
+      cutscene_39: -5427931745907777902
+      cutscene_4: 7732169348022126154
+      cutscene_40: 1711734233107615493
+      cutscene_41: -7023831214043085498
+      cutscene_42: 8999971174185181958
+      cutscene_43: 2144794198545592280
+      cutscene_44: -7373347003220745344
+      cutscene_45: -1182838351938948762
+      cutscene_46: -6352372841983026486
+      cutscene_47: 2613840159634361032
+      cutscene_48: -5591034205177126790
+      cutscene_49: 8940875385566842980
+      cutscene_5: 9067875949443825271
+      cutscene_50: -5876599226692593275
+      cutscene_51: -6897331300842037218
+      cutscene_52: -6312677452240437214
+      cutscene_53: -8664784593072914887
+      cutscene_54: -1052305329774991155
+      cutscene_55: -6293193765374410323
+      cutscene_56: 5817399113286266658
+      cutscene_57: -7737094122189938691
+      cutscene_58: 6941018475129114244
+      cutscene_59: -5480128248529682009
+      cutscene_6: -5142844473175052296
+      cutscene_60: -1065838479742355260
+      cutscene_61: 8097810319126516736
+      cutscene_62: -6513621271237963053
+      cutscene_63: 8429182925449625971
+      cutscene_64: 90126449181148760
+      cutscene_65: 8276491620643744616
+      cutscene_66: 4586266817672418839
+      cutscene_67: 9222305803778150963
+      cutscene_68: -4285913786452026443
+      cutscene_69: -1609010162356874136
+      cutscene_7: 3598704256303315419
+      cutscene_70: -6329315980991235547
+      cutscene_71: -4369895885441466358
+      cutscene_72: -4471166571219602184
+      cutscene_73: -1521634995592870169
+      cutscene_74: -8804078660443130290
+      cutscene_75: -990191530574753752
+      cutscene_76: -993565732420208836
+      cutscene_77: -9033925685431261544
+      cutscene_78: -3260978475000467498
+      cutscene_79: 9211476411901704502
+      cutscene_8: -3805656243371872934
+      cutscene_80: -1916445430427256888
+      cutscene_81: 202203495698646300
+      cutscene_9: -172910981614400531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

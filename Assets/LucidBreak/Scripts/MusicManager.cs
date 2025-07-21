@@ -8,9 +8,10 @@ public class MusicManager : MonoBehaviour
     [Header("Músicas")]
     public AudioClip menuMusic;
     public AudioClip gameMusic;
+    public AudioClip endingMusic;
 
     private AudioSource audioSource;
-    private bool isPlayingGameMusic = false;
+    private bool isPlayingEndingMusic = false;
 
     private void Awake()
     {
@@ -41,30 +42,32 @@ public class MusicManager : MonoBehaviour
         {
             audioSource.clip = menuMusic;
             audioSource.Play();
-            isPlayingGameMusic = false;
+            isPlayingEndingMusic = false;
         }
     }
 
-    public void PlayGameMusic()
+    public void PlayEndingMusic()
     {
-        if (!isPlayingGameMusic)
+        if (!isPlayingEndingMusic)
         {
-            StartCoroutine(TransitionToGameMusic());
+            StartCoroutine(TransitionToEndingMusic());
         }
     }
 
-    private IEnumerator TransitionToGameMusic()
+    private IEnumerator TransitionToEndingMusic()
     {
         float startVolume = audioSource.volume;
         while (audioSource.volume > 0)
         {
-            audioSource.volume -= startVolume * Time.deltaTime;
+            audioSource.volume -= startVolume * Time.deltaTime/2;
             yield return null;
         }
 
-        audioSource.clip = gameMusic;
+        audioSource.clip = endingMusic;
+
+        yield return new WaitForSeconds(10f);
         audioSource.Play();
-        isPlayingGameMusic = true;
+        isPlayingEndingMusic = true;
 
         while (audioSource.volume < startVolume)
         {

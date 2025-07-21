@@ -11,10 +11,10 @@ public class NextLevel : MonoBehaviour
         if (playerNearby && Input.GetKeyDown(KeyCode.E))
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            int nextSceneIndex = currentSceneIndex == 0 ? 1 : 0;
+            int nextSceneIndex = currentSceneIndex == 1 ? 2 : 1;
 
             // Define onde o player deve aparecer na próxima cena
-            if (nextSceneIndex == 1)
+            if (nextSceneIndex == 2)
             {
                 SceneTransition.playerNextPosition = new Vector3(4.447693f, 0.4476953f, 0f);
                 SceneTransition.playerNextRotation = Quaternion.identity;

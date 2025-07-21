@@ -169,6 +169,7 @@ MonoBehaviour:
   interactionText: Pressione E para interagir
   interactionRange: 2
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!61 &19933773
@@ -442,6 +443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemManager: {fileID: 135181604}
+  finalCounter: 0
 --- !u!114 &135181604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,6 +460,8 @@ MonoBehaviour:
   - {fileID: 5654223917401809449, guid: 6346cb719b97d1d4bad902a717d70dda, type: 3}
   - {fileID: 8324839584366922840, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
   - {fileID: 1878996262785391630, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
+  - {fileID: 5953727604670035245, guid: 7701367f60c3d1048a0098f6813fef4e, type: 3}
+  - {fileID: 4171409193132564769, guid: 2bb267e2fd0e34846af8def71517ec22, type: 3}
 --- !u!4 &135181605
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,8 +1129,9 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: 0848cc29c5061024b9def1264dd304de, type: 2}
   showInteractionPrompt: 1
   interactionText: Pressione E para interagir
-  interactionRange: 2
+  interactionRange: 1
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!61 &328056697
@@ -1914,7 +1919,6 @@ GameObject:
   - component: {fileID: 611442942}
   - component: {fileID: 611442943}
   - component: {fileID: 611442944}
-  - component: {fileID: 611442945}
   m_Layer: 0
   m_Name: bed_0
   m_TagString: Untagged
@@ -2039,25 +2043,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.40625, y: 1.0207834}
   m_EdgeRadius: 0
---- !u!114 &611442945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 611442941}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd03d6548d4e74643a806babd1d187ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: c95dbfd360c380a458cef06355e95813, type: 2}
-  showInteractionPrompt: 1
-  interactionText: Pressione E para interagir
-  interactionRange: 2
-  interactKey: 101
-  interactionPrompt: {fileID: 0}
-  promptText: {fileID: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,30 +2202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683385660}
   m_CullTransparentMesh: 1
---- !u!1 &694475484 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6103145662138503115, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
-  m_PrefabInstance: {fileID: 8298747900713908372}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &694475491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 694475484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd03d6548d4e74643a806babd1d187ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: b5be3d3b8d7a0e948b9de49b5725dab1, type: 2}
-  showInteractionPrompt: 1
-  interactionText: Pressione E para interagir
-  interactionRange: 2
-  interactKey: 101
-  interactionPrompt: {fileID: 0}
-  promptText: {fileID: 0}
 --- !u!1 &700402190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2289,8 +2250,9 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: 032255b169e41874c96b0dbb7ca7d446, type: 2}
   showInteractionPrompt: 1
   interactionText: Pressione E para interagir
-  interactionRange: 2
+  interactionRange: 0.5
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!61 &700402193
@@ -2462,8 +2424,9 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: c95dbfd360c380a458cef06355e95813, type: 2}
   showInteractionPrompt: 1
   interactionText: Pressione E para interagir
-  interactionRange: 2
+  interactionRange: 1
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!61 &776688964
@@ -3540,7 +3503,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1039542959}
   - component: {fileID: 1039542958}
-  - component: {fileID: 1039542957}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -3548,103 +3510,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1039542957
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039542956}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!114 &1039542958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4523,8 +4388,9 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: 0a5fb4e783f7cc547be09b4f89ebcd65, type: 2}
   showInteractionPrompt: 1
   interactionText: Pressione E para interagir
-  interactionRange: 2
+  interactionRange: 1
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!61 &1554381448
@@ -5223,6 +5089,7 @@ MonoBehaviour:
   interactionText: Pressione E para interagir
   interactionRange: 2
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!61 &1698474700
@@ -5633,8 +5500,9 @@ MonoBehaviour:
   dialogueData: {fileID: 11400000, guid: f1ba6dbee6c59084d829e73e5559e94a, type: 2}
   showInteractionPrompt: 1
   interactionText: Pressione E para interagir
-  interactionRange: 2
+  interactionRange: 0.5
   interactKey: 101
+  hasAnimation: 0
   interactionPrompt: {fileID: 0}
   promptText: {fileID: 0}
 --- !u!1 &1839984486
@@ -5648,7 +5516,6 @@ GameObject:
   - component: {fileID: 1839984487}
   - component: {fileID: 1839984488}
   - component: {fileID: 1839984489}
-  - component: {fileID: 1839984490}
   m_Layer: 0
   m_Name: plant_0 (1)
   m_TagString: Untagged
@@ -5773,25 +5640,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.46567488, y: 0.69447494}
   m_EdgeRadius: 0
---- !u!114 &1839984490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839984486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd03d6548d4e74643a806babd1d187ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueData: {fileID: 11400000, guid: f1ba6dbee6c59084d829e73e5559e94a, type: 2}
-  showInteractionPrompt: 1
-  interactionText: Pressione E para interagir
-  interactionRange: 2
-  interactKey: 101
-  interactionPrompt: {fileID: 0}
-  promptText: {fileID: 0}
 --- !u!1 &1874072341
 GameObject:
   m_ObjectHideFlags: 0
@@ -6662,6 +6510,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5133992352970921275, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
+      propertyPath: m_Size.x
+      value: 0.63151693
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133992352970921275, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
+      propertyPath: m_Size.y
+      value: 0.55269027
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133992352970921275, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0023875237
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133992352970921275, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.010593832
+      objectReference: {fileID: 0}
     - target: {fileID: 8067500637065898526, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
       propertyPath: m_Name
       value: PhotoAlbum
@@ -6671,6 +6535,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d83d6b43a49061749bef1c752fdeb3f5, type: 3}
+--- !u!1001 &3540535946760045456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.93044
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05071
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 749754184115836266, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207103043479626190, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
+      propertyPath: m_Name
+      value: MusicManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 44f9b8c65fef15d40ab2d116095f8a4f, type: 3}
 --- !u!1001 &4220711144256677594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6731,6 +6652,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7246559439409785121, guid: c17199863961dc046bc8bca488d0ffe8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8675838664514939256, guid: c17199863961dc046bc8bca488d0ffe8, type: 3}
       propertyPath: diaryManager
       value: 
@@ -6784,6 +6709,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3835012082293339331, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
+      propertyPath: interactionRange
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5280330879324190053, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.9396309
@@ -6828,13 +6757,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: PictureFrame
       objectReference: {fileID: 0}
+    - target: {fileID: 7853214827827881568, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6043924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853214827827881568, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4220042
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853214827827881568, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.03637582
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853214827827881568, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.39600158
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6103145662138503115, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 694475491}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cb88cd11da2100449f709af777c8e66, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -6856,3 +6798,4 @@ SceneRoots:
   - {fileID: 1509916809}
   - {fileID: 74707967}
   - {fileID: 859048837}
+  - {fileID: 3540535946760045456}

@@ -8,10 +8,10 @@ public class FinalDoor : MonoBehaviour
 
     void Update()
     {
-        // Busca o player dinamicamente se ainda não tiver encontrado
+        GameObject player = GameObject.FindWithTag("Player");
         if (inventory == null)
         {
-            GameObject player = GameObject.FindWithTag("Player");
+            
             if (player != null)
             {
                 inventory = player.GetComponent<Inventory>();
@@ -20,8 +20,15 @@ public class FinalDoor : MonoBehaviour
 
         if (playerIsNear && Input.GetKeyDown(KeyCode.E))
         {
-            // Aqui você troca para a próxima cena, como "Cena2" ou "BadEnding"
-            SceneManager.LoadScene("bad ending"); // <--- troque esse nome pela sua próxima cena
+            player.SetActive(false);
+            MusicManager.Instance.PlayEndingMusic();
+
+            if (GameManager.instance.finalCounter < 2)
+            {
+                SceneManager.LoadScene("bad_ending_cutscene"); 
+            } else {
+                SceneManager.LoadScene("good_ending_cutscene");
+            }
         }
     }
 

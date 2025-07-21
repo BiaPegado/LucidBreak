@@ -42,6 +42,7 @@ public class DiaryUIManager : MonoBehaviour
         {
             codeInputPanel.SetActive(false);
             diaryDisplayPanel.SetActive(true);
+            GameManager.instance.finalCounter++;
             //diaryContentText.text = diaryPrefab.diaryText;
         }
         else

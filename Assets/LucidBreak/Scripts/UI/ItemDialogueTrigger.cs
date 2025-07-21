@@ -10,6 +10,9 @@ public class ItemDialogueTrigger : MonoBehaviour
     [Header("Interaction")]
     public float interactionRange = 2f;
     public KeyCode interactKey = KeyCode.E;
+    public bool hasAnimation = false;
+    private Animator anim;
+    private Cup cup;
     
     [Header("UI")]
     public GameObject interactionPrompt;
@@ -27,6 +30,15 @@ public class ItemDialogueTrigger : MonoBehaviour
             if (promptText != null)
                 promptText.text = interactionText;
         }
+        if (hasAnimation)
+        {
+            anim = GetComponentInParent<Animator>();
+            if(GetComponentInParent<Cup>() is not null)
+            {
+                cup = GetComponentInParent<Cup>();
+                cup.dialogue = dialogueData;
+            }
+        }
     }
     
     private void Update()
@@ -36,6 +48,14 @@ public class ItemDialogueTrigger : MonoBehaviour
             if (Input.GetKeyDown(interactKey))
             {
                 StartDialogue();
+                if (hasAnimation)
+                {
+                    anim.SetTrigger("interacted");
+                    if(cup != null)
+                    {
+                        cup.interacted++;
+                    }
+                }
             }
         }
     }
@@ -119,4 +139,6 @@ public class ItemDialogueTrigger : MonoBehaviour
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, interactionRange);
     }
+    
+
 } 

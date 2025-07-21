@@ -122,7 +122,7 @@ public class DialogueManager : MonoBehaviour
             // Move to next line
             currentLineIndex++;
             
-            if (currentLineIndex >= currentDialogue.dialogueLines.Length)
+            if (currentLineIndex >= currentDialogue.dialogueLines.Count)
             {
                 EndDialogue();
             }
@@ -147,7 +147,7 @@ public class DialogueManager : MonoBehaviour
     
     private void DisplayCurrentLine()
     {
-        if (currentLineIndex >= currentDialogue.dialogueLines.Length)
+        if (currentLineIndex >= currentDialogue.dialogueLines.Count)
             return;
             
         var line = currentDialogue.dialogueLines[currentLineIndex];

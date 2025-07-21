@@ -12,7 +12,7 @@ public class DialogueBuilder : MonoBehaviour
         public bool shakeText = false;
         public Color textColor = Color.white;
         public bool useCustomFont = true; // Default to Determination font
-        
+
         public DialogueData.DialogueLine ToDialogueLine()
         {
             return new DialogueData.DialogueLine
@@ -26,22 +26,22 @@ public class DialogueBuilder : MonoBehaviour
             };
         }
     }
-    
+
     [Header("Builder Settings")]
     public string dialogueID = "DynamicDialogue";
     public bool canSkip = true;
     public bool autoAdvance = false;
     public float autoAdvanceDelay = 3f;
-    
+
     [Header("UI Settings")]
     public Color backgroundColor = new Color(0, 0, 0, 0.8f);
     public Color borderColor = Color.white;
     public Vector2 dialogueBoxSize = new Vector2(800, 200);
     public Vector2 dialogueBoxPosition = new Vector2(0, -300);
-    
+
     [Header("Dialogue Lines")]
     public List<DialogueLineBuilder> dialogueLines = new List<DialogueLineBuilder>();
-    
+
     // Build and start dialogue
     public void BuildAndStartDialogue()
     {
@@ -50,13 +50,17 @@ public class DialogueBuilder : MonoBehaviour
         {
             DialogueManager.Instance.StartDialogue(dialogue);
         }
+        else
+        {
+            Debug.LogWarning("DialogueManager.Instance é nulo!");
+        }
     }
-    
+
     // Build dialogue from current settings
     public DialogueData BuildDialogue()
     {
         DialogueData dialogue = ScriptableObject.CreateInstance<DialogueData>();
-        
+
         // Set basic properties
         dialogue.dialogueID = dialogueID;
         dialogue.canSkip = canSkip;
@@ -66,18 +70,14 @@ public class DialogueBuilder : MonoBehaviour
         dialogue.borderColor = borderColor;
         dialogue.dialogueBoxSize = dialogueBoxSize;
         dialogue.dialogueBoxPosition = dialogueBoxPosition;
-        
+
         // Convert dialogue lines
-        dialogue.dialogueLines = new DialogueData.DialogueLine[dialogueLines.Count];
-        for (int i = 0; i < dialogueLines.Count; i++)
-        {
-            dialogue.dialogueLines[i] = dialogueLines[i].ToDialogueLine();
-        }
-        
+        dialogue.dialogueLines = dialogueLines.ConvertAll(l => l.ToDialogueLine());
+
         return dialogue;
     }
-    
-    // Add a dialogue line
+
+    // Add a simple dialogue line
     public void AddDialogueLine(string text, bool useCustomFont = true)
     {
         dialogueLines.Add(new DialogueLineBuilder
@@ -86,12 +86,12 @@ public class DialogueBuilder : MonoBehaviour
             useCustomFont = useCustomFont
         });
     }
-    
+
     // Add a dialogue line with more options
     public void AddDialogueLine(string text, float speed = 0.05f, bool shake = false, Color color = default, bool useCustomFont = true)
     {
         if (color == default) color = Color.white;
-        
+
         dialogueLines.Add(new DialogueLineBuilder
         {
             dialogueText = text,
@@ -101,13 +101,13 @@ public class DialogueBuilder : MonoBehaviour
             useCustomFont = useCustomFont
         });
     }
-    
+
     // Clear all dialogue lines
     public void ClearDialogueLines()
     {
         dialogueLines.Clear();
     }
-    
+
     // Remove dialogue line at index
     public void RemoveDialogueLine(int index)
     {
@@ -116,7 +116,7 @@ public class DialogueBuilder : MonoBehaviour
             dialogueLines.RemoveAt(index);
         }
     }
-    
+
     // Insert dialogue line at specific index
     public void InsertDialogueLine(int index, string text, bool useCustomFont = true)
     {
@@ -129,12 +129,12 @@ public class DialogueBuilder : MonoBehaviour
             });
         }
     }
-    
+
     // Build dialogue from string array (simple format)
     public void BuildFromStringArray(string[] lines, bool useCustomFont = true)
     {
         ClearDialogueLines();
-        
+
         foreach (string line in lines)
         {
             if (!string.IsNullOrEmpty(line))
@@ -143,7 +143,7 @@ public class DialogueBuilder : MonoBehaviour
             }
         }
     }
-    
+
     // Build dialogue from text file
     public void BuildFromTextFile(TextAsset textFile, bool useCustomFont = true)
     {
@@ -153,7 +153,7 @@ public class DialogueBuilder : MonoBehaviour
             BuildFromStringArray(lines, useCustomFont);
         }
     }
-    
+
     // Create a simple dialogue with one line
     public static DialogueData CreateSimpleDialogue(string text, bool useCustomFont = true)
     {
@@ -163,7 +163,7 @@ public class DialogueBuilder : MonoBehaviour
         DestroyImmediate(builder.gameObject);
         return dialogue;
     }
-    
+
     // Create a dialogue from multiple lines
     public static DialogueData CreateDialogueFromLines(string[] lines, bool useCustomFont = true)
     {
@@ -173,4 +173,4 @@ public class DialogueBuilder : MonoBehaviour
         DestroyImmediate(builder.gameObject);
         return dialogue;
     }
-} 
+}
